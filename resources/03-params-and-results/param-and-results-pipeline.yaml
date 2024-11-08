@@ -28,4 +28,4 @@ spec:
       # Step 2: Pass the "git_commit" result from task-01 to task-02
       params:
         - name: git_commit
-          value: $(results.task-01.git_commit)
+          value: $(tasks.task-01.results.git_commit)
