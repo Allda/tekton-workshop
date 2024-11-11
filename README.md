@@ -169,7 +169,7 @@ To apply the pipeline and tasks to the cluster run following command:
 ```bash
 $ kubectl apply --filename resources/02-pipeline/goodbye.yaml
 
-$ kubectl apply --filename resources/02-pipeline/hello-world-pipeline.yaml
+$ kubectl apply --filename resources/02-pipeline/hello-goodbye-pipeline.yaml
 ```
 
 Now we can run the pipeline using `tkn` cli tool. The command to run the pipeline is:
