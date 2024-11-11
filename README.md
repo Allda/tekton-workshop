@@ -223,7 +223,7 @@ $ kubectl apply -f resources/04-workspaces/read-task.yaml
 $ kubectl apply -f resources/04-workspaces/write-task.yaml
 $ kubectl apply -f resources/04-workspaces/workspace-pipeline.yaml
 
-$ kn pipeline start workspace-pipeline \
+$ tkn pipeline start workspace-pipeline \
     --showlog \
     --workspace "name=shared-workspace,volumeClaimTemplateFile=resources/07-ci-cd-pipeline/workspace-template.yaml"
 ```
